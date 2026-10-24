@@ -83,4 +83,7 @@ public class Alumno {
     public String getEstadoAcademico() {
         return promedio >= 13 ? "REGULAR" : "EN RIESGO";
     }
+
+    public void setEstadoAcademico(String estadoAcademico) {
+    }
 }
